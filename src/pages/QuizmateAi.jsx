@@ -27,7 +27,7 @@ const QuizmateAi = () => {
         <div>
           <p>Or type...</p>
           <div className="w-[625px] h-[221px] bg-[#1E293B] p-4 rounded-lg border border-[#9D69FF] relative mt-4">
-            <p>Type your question here</p>
+            <p className="text-[#64748B] ">Type your question here</p>
             <button className="absolute bottom-5 right-10 border bg-gradient-to-r from-[#9D69FF] to-[#3E6EFF] px-10 py-4 rounded-full border-none ">
               solve
             </button>
