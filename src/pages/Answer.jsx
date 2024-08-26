@@ -1,4 +1,5 @@
 import React from 'react'
+import { LuExpand } from "react-icons/lu";
 
 const Answer = () => {
   return (
@@ -6,33 +7,33 @@ const Answer = () => {
       <div className="">
         <div className="text-white grid gap-8">
           <div className="w-[625px] h-[145px] bg-[#020617] p-4 rounded-lg border border-[#9D69FF]  flex flex-col text-sm text-[#64748B] ">
-            <div>
+            <div className='relative'>
               <p>Question: Who wrote the novel "Pride and Prejudice"</p>
               <p>A. Charles Dickens</p>
               <p>B. Williams Shakespeare</p>
               <p>C. Jane Austin</p>
               <p>D. Emilly Bronte</p>
-              <p><span>Corrent Answer:</span> C. Jane Austin <span>Expand</span></p>
+              <p className='text-green-500'><span className='font-bold'>Corrent Answer:</span> C. Jane Austin <span className='absolute  right-0 text-[#64748B] '><LuExpand className='inline-block'/> Expand</span></p>
             </div> 
           </div>
           <div className="w-[625px] h-[145px] bg-[#020617] p-4 rounded-lg border border-[#9D69FF]  flex flex-col text-sm text-[#64748B]  ">
-          <div>
+          <div className='relative'>
               <p>Question: What is the capital city of Canada?</p>
               <p>A. Vancouver</p>
               <p>B. Ottawa</p>
               <p>C. Toronto</p>
               <p>D. Montreal</p>
-              <p><span>Corrent Answer:</span> B. Ottawa <span>Expand</span></p>
+              <p className='text-green-500'><span className='font-bold'>Corrent Answer:</span> C. Jane Austin <span className='absolute  right-0 text-[#64748B] '><LuExpand className='inline-block'/> Expand</span></p>
             </div> 
           </div>
           <div className="w-[625px] h-[145px] bg-[#020617] p-4 rounded-lg border border-[#9D69FF]  flex flex-col text-sm text-[#64748B]  ">
-          <div>
+          <div className='relative'>
               <p>Question: What is the capital city of France?</p>
               <p>A. Berlin</p>
               <p>B. London</p>
               <p>C. Paris</p>
               <p>D. Rome</p>
-              <p><span>Corrent Answer:</span> C. Paris <span>Expand</span></p>
+              <p className='text-green-500'><span className='font-bold'>Corrent Answer:</span> C. Jane Austin <span className='absolute  right-0 text-[#64748B] '><LuExpand className='inline-block'/> Expand</span></p>
             </div> 
           </div>
           <div className="">
