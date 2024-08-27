@@ -15,7 +15,7 @@ const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route  path='/'  element={<MainLayout />}>
-        <Route path='/' element={<QuizmateAi />} />
+        <Route index element={<QuizmateAi />} />
         <Route path='/upload' element={<UploadedImage />} />
         <Route path='/answer' element={<Answer />} />
         <Route path='/answer-expand' element={<AnswerExpanded />} />
