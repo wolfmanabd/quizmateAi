@@ -10,6 +10,7 @@ import Answer from './pages/Answer';
 import MainLayout from './layout/MainLayout';
 import AnswerExpanded from './pages/AnswerExpanded';
 import UploadedImage from './pages/UploadedImage';
+import NotFoundPage from './pages/NotFoundPage';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/upload' element={<UploadedImage />} />
         <Route path='/answer' element={<Answer />} />
         <Route path='/answer-expand' element={<AnswerExpanded />} />
+        <Route path='*' element={<NotFoundPage />} />
       </Route>
     )
   );

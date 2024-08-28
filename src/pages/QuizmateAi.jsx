@@ -20,7 +20,9 @@ const QuizmateAi = () => {
           <div className="w-[625px] h-[263px] bg-[#1E293B] p-4 rounded-lg border border-[#9D69FF] border-dashed flex flex-col items-center justify-center ">
             <div className="">
               <img src={Icon} alt="" className="mx-auto" />
-              <p className="mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#9D69FF] to-[#3E6EFF]">Drag image or click here to upload</p>
+              <p className="mt-4 text-transparent bg-clip-text bg-gradient-to-r from-[#9D69FF] to-[#3E6EFF]">
+                Drag image or click here to upload
+              </p>
             </div>
           </div>
         </div>
